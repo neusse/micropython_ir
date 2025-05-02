@@ -200,7 +200,9 @@ NEC.samsung=True
 Samsung remotes do not seem to use repeat codes: the sample I have simply
 repeats the original code.
 
-Thanks are due to J.E.Tannenbaum for information about the Samsung protocol.
+Thanks are due to J.E.Tannenbaum for information about the Samsung protocol. See
+https://github.com/peterhinch/micropython_ir/issues/21#issuecomment-1300421694 and
+https://github.com/peterhinch/micropython_ir/issues/44 for some test results.
 
 #### Sony classes
 

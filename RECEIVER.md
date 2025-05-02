@@ -164,7 +164,9 @@ tested did not issue repeat codes - if a button is held down it simply repeated
 the original value. In common with other NEC classes the callback receives a
 value of 0 in the `ctrl` arg.
 
-Thanks are due to J.E.Tannenbaum for information about the Samsung protocol.
+Thanks are due to J.E.Tannenbaum for information about the Samsung protocol. See
+https://github.com/peterhinch/micropython_ir/issues/21#issuecomment-1300421694 and
+https://github.com/peterhinch/micropython_ir/issues/44 for some test results.
 
 #### Sony classes
 
