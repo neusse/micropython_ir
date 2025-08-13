@@ -102,7 +102,7 @@ while True:
  2. `callback` is the user supplied callback.
  3. `*args` Any further args will be passed to the callback.  
 
-The user callback takes the following args:  
+The user callback is a soft interrupt service routine receiving the following args:  
  1. `data` (`int`) Value from the remote. Normally in range 0-255. A value < 0
  signifies an NEC repeat code.
  2. `addr` (`int`) Address from the remote.
